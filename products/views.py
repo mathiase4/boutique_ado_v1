@@ -8,7 +8,7 @@ def all_products(request):
 a view to show all products, including sorting and seearch queries.
 
     """
-    products = product.objects.all()
+    products = Product.objects.all()
 
     context = {
         'products': products,
