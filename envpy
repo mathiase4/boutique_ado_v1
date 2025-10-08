@@ -1,3 +1,4 @@
 import os 
 
 os.environ.setdefault('MY_ENVIRONMENT_VARIABLE', 'variable_value')
+os.environ.setdefault('STRIPE_WH_SECRET', 'whsec_6aca4ca9c71088960fe5f04e602f2844a175b266207b44be556b18fee22c8448')
